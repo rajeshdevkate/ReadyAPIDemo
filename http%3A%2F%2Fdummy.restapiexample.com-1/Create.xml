@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:resource name="Create" path="/api/v1/create" id="15487ef3-f1a5-4797-96f7-9a01f387e67e" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="15487ef3-f1a5-4797-96f7-9a01f387e67efileName">Create</con:setting>
+  </con:settings>
+  <con:parameters/>
+  <con:method name="Create" id="464aa02c-9ffa-4890-a69c-5936de0a8cb0" method="POST">
+    <con:settings/>
+    <con:parameters/>
+    <con:request name="Request 1" id="f2034161-be32-44c4-b7bd-a92b1e2dbc18" mediaType="application/json" postQueryString="false">
+      <con:settings/>
+      <con:endpoint>http://dummy.restapiexample.com</con:endpoint>
+      <con:request/>
+      <con:credentials>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
+      <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+      <con:parameters/>
+    </con:request>
+  </con:method>
+</con:resource>

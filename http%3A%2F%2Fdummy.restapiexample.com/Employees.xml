@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:resource name="Employees" path="/api/v1/employees" id="20fb32ee-4de9-4e75-916b-38678e2d6c41" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="20fb32ee-4de9-4e75-916b-38678e2d6c41fileName">Employees</con:setting>
+  </con:settings>
+  <con:parameters/>
+  <con:method name="Employees" id="7c476249-e939-47ae-b6ea-64d97374f4ba" method="GET">
+    <con:settings/>
+    <con:parameters/>
+    <con:request name="Request 1" id="dfb7525d-6cbb-4442-827a-66f9f1e77ffc" mediaType="application/json">
+      <con:settings/>
+      <con:endpoint>http://dummy.restapiexample.com</con:endpoint>
+      <con:request/>
+      <con:credentials>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
+      <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+      <con:parameters/>
+    </con:request>
+  </con:method>
+</con:resource>
